@@ -5,7 +5,7 @@ import { supabase } from "./config/supabase.js";
 
 const app = express();
 
-const allowedOrgins = ["*", "https://pagination-frontend-ten.vercel.app"];
+const allowedOrgins = ["*", "https://pagination-frontend-4sk8.vercel.app/"];
 
 app.use(express.json());
 app.use(cors({ origin: allowedOrgins }));
